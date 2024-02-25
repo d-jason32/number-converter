@@ -10,13 +10,15 @@
 
     <div class="container">
         <label for="decimal">Decimal</label>
-        <input type="text" id="decimal" />
+        <input type="text" id="decimal" oninput="copyText('decimal')" />
     
         <label for="binary">Binary</label>
-        <input type="text" id="binary" />
+        <input type="text" id="binary" oninput="copyText('binary')" />
     
         <label for="hexadecimal">Hexadecimal</label>
-        <input type="text" id="hexadecimal" />
+        <input type="text" id="hexadecimal" oninput="copyText('hexadecimal')" />
+        
+        <button onClick="window.location.reload();">Reset</button>
     </div>
         <footer>
             <p>Made with &#x2764;&#xfe0f; in NYC.</p>
