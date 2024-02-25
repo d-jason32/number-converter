@@ -3,16 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>User Input Display</title>
-  <link rel="stylesheet" href="styles.css">
+  <title>Number Converter</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <label for="userInput">Enter something:</label>
-    <input type="text" id="userInput" />
-    <button onclick="displayInput()">Display</button>
-    <div id="output"></div>
-  </div>
+
+    <div class="container">
+        <label for="decimal">Decimal</label>
+        <input type="text" id="decimal" />
+    
+        <label for="binary">Binary</label>
+        <input type="text" id="binary" />
+    
+        <label for="hexadecimal">Hexadecimal</label>
+        <input type="text" id="hexadecimal" />
+    </div>
+        <footer>
+            <p>Made with &#x2764;&#xfe0f; in NYC.</p>
+        </footer>
+
+  
   <script src="app.js"></script>
 </body>
 </html>
